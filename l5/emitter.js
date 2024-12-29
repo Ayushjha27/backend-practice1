@@ -3,7 +3,7 @@ function Emitter(){
 }
 //prototype se object me new property add kr skte h
 Emitter.prototype.on = function(type,cb){  //nodejs module on use krta hai
-   this.events[type] = this.events[type] || [];
+   this.events[type] = this.events [type] || [];
    this.events[type].push(cb);
 }
 // [cb1,cb2,cb3]-->ise trigger krenge or for each loop lga ke har ek function ko call krenge
@@ -29,6 +29,6 @@ Emitter.prototype.emit = function(type){
         });
     }
 }
-
+ 
 //ab emitter ko export krenge
 module.exports = Emitter;

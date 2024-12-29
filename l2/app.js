@@ -2,7 +2,7 @@
 */
 
 
-//require("./greet.js") 
+//require("./greet.js")  //output: hello 74
 
 const abc = require("./greet2.js");
 

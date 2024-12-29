@@ -1,3 +1,3 @@
-module.exports = function () { //fucntion ka naam nhi diya
+module.exports = function () { //function ka naam nhi diya
     console.log("Eating 🍔");
 }

@@ -31,9 +31,6 @@ console.log(name); // Output: Alice
 console.log(age);  // Output: 25
 
 
-
-
-
 Key Point
 If the name of the variable matches the name of the key in the object, destructuring automatically assigns the value of that key to the variable.
 
@@ -45,6 +42,5 @@ const { name: firstName } = person;
 // 'firstName' is now a variable holding the value of 'person.name' (i.e., "Alice").
 
 console.log(firstName); // Output: Alice
-
-
  */
+
